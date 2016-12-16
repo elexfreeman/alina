@@ -17,15 +17,11 @@
 
     <link rel="icon" href="https://ld-wp.template-help.com/wordpress_58640/wp-content/themes/theme58640/favicon.ico" type="image/x-icon"/>
 
-    <link rel="alternate" type="application/rss+xml" title="Interna" href="https://ld-wp.template-help.com/wordpress_58640/feed/"/>
-    <link rel="alternate" type="application/atom+xml" title="Interna" href="https://ld-wp.template-help.com/wordpress_58640/feed/atom/"/>
     <link rel="stylesheet" type="text/css" media="all" href="/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/css/responsive.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/css/camera.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/css/style.css"/>
-    <link rel="alternate" type="application/rss+xml" title="Interna &raquo; Feed" href="https://ld-wp.template-help.com/wordpress_58640/feed/"/>
-    <link rel="alternate" type="application/rss+xml" title="Interna &raquo; Comments Feed" href="https://ld-wp.template-help.com/wordpress_58640/comments/feed/"/>
-    <link rel="alternate" type="application/rss+xml" title="Interna &raquo; Home Comments Feed" href="https://ld-wp.template-help.com/wordpress_58640/home/feed/"/>
+
     <script type="text/javascript">
         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ld-wp.template-help.com\/wordpress_58640\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.5"}};
         !function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -42,9 +38,9 @@
     <link rel='stylesheet' id='contact-form-7-css' href='/css/styles.css?ver=4.4.2' type='text/css' media='all'/>
     <link rel='stylesheet' id='theme58640-css' href='/css/main-style.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='magnific-popup-css' href='/css/magnific-popup.css?ver=0.9.3' type='text/css' media='all'/>
-    <link rel='stylesheet' id='options_typography_Ubuntu-css' href='//fonts.googleapis.com/css?family=Ubuntu&#038;subset=latin' type='text/css' media='all'/>
-    <link rel='stylesheet' id='options_typography_Josefin+Sans-css' href='//fonts.googleapis.com/css?family=Josefin+Sans&#038;subset=latin' type='text/css' media='all'/>
-    <link rel='stylesheet' id='options_typography_Pacifico-css' href='//fonts.googleapis.com/css?family=Pacifico&#038;subset=latin' type='text/css' media='all'/>
+    <link rel='stylesheet' id='options_typography_Ubuntu-css' href='//fonts.googleapis.com/css?family=Ubuntu&#038;subset=latin,cyrillic' type='text/css' media='all'/>
+    <link rel='stylesheet' id='options_typography_Josefin+Sans-css' href='//fonts.googleapis.com/css?family=Josefin+Sans&#038;subset=latin,cyrillic' type='text/css' media='all'/>
+    <link rel='stylesheet' id='options_typography_Pacifico-css' href='//fonts.googleapis.com/css?family=Pacifico&#038;subset=latin,cyrillic' type='text/css' media='all'/>
     <link rel='stylesheet' id='mpce-theme-css' href='/css/theme.css?ver=1.5.8' type='text/css' media='all'/>
     <link rel='stylesheet' id='mpce-bootstrap-grid-css' href='/css/bootstrap-grid.min.css?ver=1.5.8' type='text/css' media='all'/>
     <script type='text/javascript' src='/js/jquery-1.7.2.min.js?ver=1.7.2'></script>

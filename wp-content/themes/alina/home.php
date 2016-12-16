@@ -10,38 +10,48 @@
                                     <div class="span12 ">
                                         <div class="cherry-single-carousel-wrapper  loading">
                                             <div class="cherry-single-carousel-container">
+                                            <?php
+                                            $args = array(
+                                                'numberposts'	=> -1,
+                                                'post_type'		=> 'projects',
+                                                'post_status' => 'publish',
+
+                                             /*   'meta_query'	=> array(
+                                                    array(
+                                                        'key'	 	=> 'p_show_in_main_slide',
+                                                        'value' => 'Да', // matches exactly "red"
+                                                        'compare' => 'LiKE'
+                                                    )
+
+                                                ),*/
+                                            );
+                                            $the_query = new WP_Query($args);
+                                            if( $the_query->have_posts() ): while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                                <?php $sl_img = get_field('p_main_image');?>
                                                 <div class="cherry-single-carousel-item">
                                                     <div class="background">
-                                                        <img width="1980" height="894" src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/slide_1.jpg" class="attachment-cherry-single-carousel-image size-cherry-single-carousel-image wp-post-image" alt="slide_1" srcset="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/slide_1-300x135.jpg 300w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/slide_1-768x347.jpg 768w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/slide_1-1024x462.jpg 1024w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/slide_1.jpg 1980w" sizes="(max-width: 1980px) 100vw, 1980px"/>
+                                                        <img width="1980" height="894"
+                                                             src="<?php echo $sl_img['sizes']['large']; ?>"
+                                                             class="attachment-cherry-single-carousel-image size-cherry-single-carousel-image wp-post-image" alt="slide_1"
+                                                             srcset="<?php echo $sl_img['sizes']['large']; ?> 300w,
+                                                             <?php echo $sl_img['sizes']['large']; ?> 768w,
+                                                             <?php echo $sl_img['sizes']['large']; ?> 1024w,
+                                                             <?php echo $sl_img['sizes']['large']; ?> 1980w" sizes="(max-width: 1980px) 100vw, 1980px"/>
                                                     </div><div class="foreground">
                                                         <div class="cherry-single-carousel-content-holder">
                                                             <div class="element">
-                                                                <h3 class="cherry-single-carousel-item-title">We create</h3>
+                                                                <h3 class="cherry-single-carousel-item-title">Мы создали</h3>
                                                                 <div class="cherry-single-carousel-item-excerpt">
-                                                                    <strong>22.227</strong>
-                                                                    projects that stay modern and actual within the years... </div>
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/events-view/we-create-3/" class="btn">view details</a>
+                                                                    <strong><?php  the_field( "p_date" ); ?></strong>
+                                                                    <?php  the_field( "p_short_description" ); ?></div>
+                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/events-view/we-create-3/" class="btn">Детали</a>
                                                             </div>
                                                         </div>
                                                         <div class="helper"></div>
                                                     </div>
                                                 </div>
-                                                <div class="cherry-single-carousel-item">
-                                                    <div class="background">
-                                                        <img width="1980" height="894" src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2015/02/slide_2.jpg" class="attachment-cherry-single-carousel-image size-cherry-single-carousel-image wp-post-image" alt="slide_2" srcset="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2015/02/slide_2-300x135.jpg 300w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2015/02/slide_2-768x347.jpg 768w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2015/02/slide_2-1024x462.jpg 1024w, https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2015/02/slide_2.jpg 1980w" sizes="(max-width: 1980px) 100vw, 1980px"/>
-                                                    </div>
-                                                    <div class="foreground">
-                                                        <div class="cherry-single-carousel-content-holder">
-                                                            <div class="element">
-                                                                <h3 class="cherry-single-carousel-item-title">We create</h3>
-                                                                <div class="cherry-single-carousel-item-excerpt"><strong>12.597</strong>
-                                                                    projects that stay modern and actual within the years... </div>
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/events-view/we-create-2/" class="btn">view details</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="helper"></div>
-                                                    </div>
-                                                </div>
+                                            <?php endwhile; else : endif; wp_reset_query(); ?>
+
                                             </div>
                                             <div class="cherry-single-carousel-controls">
                                                 <a class="prev" href="#" rel="prev"></a>
@@ -79,6 +89,8 @@
                                             </script>
                                         </div>
                                         <ul class="posts-grid row-fluid unstyled portfolio-home full-width-block ul-item-0">
+
+
                                             <li class="span4 list-item-3">
                                                 <figure class="featured-thumbnail thumbnail">
                                                     <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
@@ -95,6 +107,9 @@
                                                     <div class="helper"></div>
                                                 </div>
                                             </li>
+
+
+
                                             <li class="span4 list-item-2">
                                                 <figure class="featured-thumbnail thumbnail">
                                                     <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_2.jpg" title="Penthouse" rel="prettyPhoto-1235742828">
