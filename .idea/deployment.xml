@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="forestunion">
+    <serverData>
+      <paths name="forestunion">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/alina/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/alina/public_html/cgi-bin" />
+            <excludedPath path="/alina/public_html/wp-content/themes/twentyfifteen" />
+            <excludedPath path="/alina/public_html/wp-content/themes/twentyfourteen" />
+            <excludedPath path="/alina/public_html/wp-content/themes/twentysixteen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentyfifteen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentyfourteen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentysixteen" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
