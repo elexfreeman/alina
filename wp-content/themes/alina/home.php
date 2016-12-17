@@ -92,112 +92,44 @@
                                         </div>
                                         <ul class="posts-grid row-fluid unstyled portfolio-home full-width-block ul-item-0">
 
+                                        <?php
+                                        $args = array(
+                                            'numberposts'	=> -1,
+                                            'post_type'		=> 'category',
+                                            'post_status' => 'publish',
 
+                                            /*   'meta_query'	=> array(
+                                                   array(
+                                                       'key'	 	=> 'p_show_in_main_slide',
+                                                       'value' => 'Да', // matches exactly "red"
+                                                       'compare' => 'LiKE'
+                                                   )
+
+                                               ),*/
+                                        );
+                                        $the_query = new WP_Query($args);
+                                        if( $the_query->have_posts() ): while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                            <?php $c_image = get_field('c_image');?>
                                             <li class="span4 list-item-3">
                                                 <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
+                                                    <a href="<?php echo  $c_image['sizes']['large']; ?>" title="<?php  the_title(); ?>" rel="prettyPhoto-1235742828">
+                                                        <img class="cat-img" src="<?php echo  $c_image['sizes']['large']; ?>" alt="<?php  the_title(); ?>"/>
                                                         <span class="zoom-icon"></span>
                                                     </a>
                                                 </figure>
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Архитектурное проектирование</a></h5>
-                                                        <p class="excerpt">Услуги по архитектурному проектированию</p>
+                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view"><?php  the_title(); ?></a></h5>
+                                                        <p class="excerpt"><?php  the_field( "c_short_description" ); ?></p>
                                                     </div>
                                                     <div class="helper"></div>
                                                 </div>
                                             </li>
+                                        <?php endwhile; else : endif; wp_reset_query(); ?>
 
 
 
-                                            <li class="span4 list-item-2">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_2.jpg" title="Penthouse" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_2-800x540.jpg" alt="Penthouse"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5 class="cat-head-h5">
-                                                            <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/penthouse/" title="Penthouse">Дизайн и декорирование</a>
-                                                        </h5>
-                                                        <p class="excerpt">Индивидуальный подход к каждому Заказчику</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
-                                            <li class="span4 list-item-3">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5 class="cat-head-h5">
-                                                            <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Инженерное проектирование</a>
-                                                        </h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
-                                            <li class="span4 list-item-3">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Строительство и ремонт</a></h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
-
-                                            <li class="span4 list-item-3">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Мебель по индивидуальному заказу</a></h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
-
-                                            <li class="span4 list-item-3">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Поставка мебели</a></h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
                                         </ul>
 
                                         <div class="spacer"></div>
