@@ -126,6 +126,7 @@
             }
         })
     </script>
+    <link rel='stylesheet' href='/css/add.css' type='text/css' media='all'/>
 </head>
 <?php $settings = GetSettings(); ?>
 

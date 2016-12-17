@@ -1,4 +1,7 @@
-.desc .desc-in h5
+.cat-head-h5
 {
-    font-size: 20px;
+    font-size: 24px !important;
+    padding-top: 32%;
+    line-height: 30px !important;
+    font-weight: 100 !important;
 }

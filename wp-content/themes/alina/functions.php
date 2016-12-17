@@ -241,9 +241,10 @@ function GetSettings()
 
     $res = array();
     $args = array(
-        'posts_per_page'	=> 1,
-        'id' => 2,
-        'post_type'=>'page'
+
+        'page_id' => 2,
+        'post_type'=>'page',
+        'limits' =>'1'
     );
     $the_query = new WP_Query($args);
     if( $the_query->have_posts() ) {

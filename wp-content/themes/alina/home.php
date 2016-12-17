@@ -103,8 +103,8 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Архитектурное проектирование</a></h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
+                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Архитектурное проектирование</a></h5>
+                                                        <p class="excerpt">Услуги по архитектурному проектированию</p>
                                                     </div>
                                                     <div class="helper"></div>
                                                 </div>
@@ -122,8 +122,26 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5>
+                                                        <h5 class="cat-head-h5">
                                                             <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/penthouse/" title="Penthouse">Дизайн и декорирование</a>
+                                                        </h5>
+                                                        <p class="excerpt">Индивидуальный подход к каждому Заказчику</p>
+                                                    </div>
+                                                    <div class="helper"></div>
+                                                </div>
+                                            </li>
+                                            <li class="span4 list-item-3">
+                                                <figure class="featured-thumbnail thumbnail">
+                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
+                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
+                                                        <span class="zoom-icon"></span>
+                                                    </a>
+                                                </figure>
+                                                <div class="clear"></div>
+                                                <div class="desc">
+                                                    <div class="desc-in">
+                                                        <h5 class="cat-head-h5">
+                                                            <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Инженерное проектирование</a>
                                                         </h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
@@ -140,23 +158,7 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Инженерное проектирование</a></h5>
-                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
-                                                    </div>
-                                                    <div class="helper"></div>
-                                                </div>
-                                            </li>
-                                            <li class="span4 list-item-3">
-                                                <figure class="featured-thumbnail thumbnail">
-                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
-                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
-                                                        <span class="zoom-icon"></span>
-                                                    </a>
-                                                </figure>
-                                                <div class="clear"></div>
-                                                <div class="desc">
-                                                    <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Строительство и ремонт</a></h5>
+                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Строительство и ремонт</a></h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
                                                     <div class="helper"></div>
@@ -173,7 +175,7 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Мебель по индивидуальному заказу</a></h5>
+                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Мебель по индивидуальному заказу</a></h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
                                                     <div class="helper"></div>
@@ -190,7 +192,7 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Поставка мебели</a></h5>
+                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Поставка мебели</a></h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
                                                     <div class="helper"></div>
