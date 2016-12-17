@@ -5,7 +5,7 @@
 <!--[if IE 9 ]><html class="ie ie9" lang="en-US"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US"> <!--<![endif]-->
 <head>
-    <title>Interna | </title>
+    <title>Alaine Group | Декорирование, архитектурный дизайн, мебель из Италии</title>
     <meta name="description" content=" | "/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,9 +38,24 @@
     <link rel='stylesheet' id='contact-form-7-css' href='/css/styles.css?ver=4.4.2' type='text/css' media='all'/>
     <link rel='stylesheet' id='theme58640-css' href='/css/main-style.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='magnific-popup-css' href='/css/magnific-popup.css?ver=0.9.3' type='text/css' media='all'/>
+<!--
     <link rel='stylesheet' id='options_typography_Ubuntu-css' href='//fonts.googleapis.com/css?family=Ubuntu&#038;subset=latin,cyrillic' type='text/css' media='all'/>
     <link rel='stylesheet' id='options_typography_Josefin+Sans-css' href='//fonts.googleapis.com/css?family=Josefin+Sans&#038;subset=latin,cyrillic' type='text/css' media='all'/>
     <link rel='stylesheet' id='options_typography_Pacifico-css' href='//fonts.googleapis.com/css?family=Pacifico&#038;subset=latin,cyrillic' type='text/css' media='all'/>
+-->
+
+    <script type="text/javascript">WebFont.load({
+            google: {
+                families: [
+                    "Ubuntu Condensed:regular:latin,cyrillic",
+                    "PT Sans Narrow:regular,700:latin,cyrillic",
+                    "Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900:latin,cyrillic"
+
+                ]
+            }
+        });</script>
+
+
     <link rel='stylesheet' id='mpce-theme-css' href='/css/theme.css?ver=1.5.8' type='text/css' media='all'/>
     <link rel='stylesheet' id='mpce-bootstrap-grid-css' href='/css/bootstrap-grid.min.css?ver=1.5.8' type='text/css' media='all'/>
     <link rel='stylesheet' href='/css/add.css' type='text/css' media='all'/>
@@ -68,7 +83,7 @@
          PARENT_URL = 'https://ld-wp.template-help.com/wordpress_58640/wp-content/themes/CherryFramework',
          CURRENT_THEME = 'theme58640'</script>-->
     <style type='text/css'>body{background-color:#2f2e39}.header{background-color:#ffffff}</style>
-    <style type='text/css'>h1{font:bold 90px/74px Ubuntu;color:#2f2e39;}h2{font:bold 90px/74px Josefin Sans;color:#2f2e39;}h3{font:bold 45px/40px Josefin Sans;color:#2f2e39;}h4{font:bold 36px/32px Josefin Sans;color:#2f2e39;}h5{font:bold 29px/26px Josefin Sans;color:#2f2e39;}h6{font:bold 19px/26px Josefin Sans;color:#2f2e39;}body{font-weight:normal;}.logo_h__txt,.logo_link{font:normal 30px/36px Pacifico;color:#ffffff;}.sf-menu>li>a{font:bold 14px/18px Josefin Sans;color:#2f2e39;}.nav.footer-nav a{font:normal 12px/14px Ubuntu;color:#ffffff;}</style>
+    <style type='text/css'>h1{font:bold 90px/74px Ubuntu;color:#2f2e39;}h2{font:bold 90px/74px Josefin Sans;color:#2f2e39;}h3{font:bold 45px/40px Josefin Sans;color:#2f2e39;}h4{font:bold 36px/32px Josefin Sans;color:#2f2e39;}h5{font:bold 29px/26px Josefin Sans;color:#2f2e39;}h6{font:bold 19px/26px Josefin Sans;color:#2f2e39;}body{font-weight:normal;}.logo_h__txt,.logo_link{font:normal 30px/36px Pacifico;color:#ffffff;}.sf-menu>li>a{font:400 16px/18px Roboto;;color:#2f2e39;}.nav.footer-nav a{font:normal 12px/14px Ubuntu;color:#ffffff;}</style>
     <!--[if lt IE 9]>
     <div id="ie7-alert" style="width: 100%; text-align:center;">
         <img src="http://tmbhtest.com/images/ie7.jpg" alt="Upgrade IE 8" width="640" height="344" border="0" usemap="#Map" />
@@ -143,8 +158,8 @@
 
                                     <div class="logo pull-left">
 
-                                        <a href="https://ld-wp.template-help.com/wordpress_58640/" class="logo_h logo_h__img">
-                                            <img style="width: 220px;" src="<?php echo $settings['main_logo']['sizes']['large']; ?>" alt="Interna" title="">
+                                        <a href="/" class="logo_h logo_h__img">
+                                            <img style="width: 220px;" src="<?php echo $settings['main_logo']['sizes']['large']; ?>" alt="Alaine Group" title="Alaine Group">
                                         </a>
                                     </div>
                                 </div>
@@ -152,13 +167,15 @@
 
                                     <nav class="nav nav__primary clearfix">
                                         <ul id="topnav" class="sf-menu">
-                                            <li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item">
-                                                <a href="https://ld-wp.template-help.com/wordpress_58640/">Главная</a>
+                                            <li id="menu-item-2010"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-203">
+                                                <a href="/">Главная</a>
                                             </li>
-                                            <li id="menu-item-2012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                            <li id="menu-item-2012"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page">
                                                 <a href="https://ld-wp.template-help.com/wordpress_58640/about/">О нас</a>
                                             </li>
-                                            <li id="menu-item-2011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                            <li id="menu-item-2011" class="menu-item menu-item-type-post_type menu-item-object-page">
                                                 <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/">Проекты</a>
                                             </li>
 

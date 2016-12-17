@@ -1,12 +1,30 @@
 .cat-head-h5
 {
-    font-size: 24px !important;
+    font: 400 37px 'PT Sans Narrow',sans-serif !important;
     padding-top: 32%;
-    line-height: 30px !important;
+    line-height: 46px !important;
+
     font-weight: 100 !important;
+}
+.cat-head-h5.str3
+{
+    padding-top: 23%;
+}
+.cat-head-h5.str2
+{
+    padding-top: 28%;
 }
 
 .cat-img
 {
     height: 348px;
+}
+.effect50 {
+    filter: contrast(0.5); /* снижает контрастность наполовину */
+    filter: contrast(50%); /* тоже снижает контрастность до 50% */
+}
+
+.effect70 {
+    filter: contrast(0.7); /* снижает контрастность наполовину */
+    filter: contrast(70%); /* тоже снижает контрастность до 50% */
 }

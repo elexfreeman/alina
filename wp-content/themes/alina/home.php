@@ -34,7 +34,7 @@
                                                     <div class="background">
                                                         <img width="1980" height="894"
                                                              src="<?php echo $sl_img['sizes']['large']; ?>"
-                                                             class="attachment-cherry-single-carousel-image size-cherry-single-carousel-image wp-post-image" alt="slide_1"
+                                                             class="effect70 attachment-cherry-single-carousel-image size-cherry-single-carousel-image wp-post-image" alt="slide_1"
                                                              srcset="<?php echo $sl_img['sizes']['large']; ?> 300w,
                                                              <?php echo $sl_img['sizes']['large']; ?> 768w,
                                                              <?php echo $sl_img['sizes']['large']; ?> 1024w,
@@ -113,14 +113,21 @@
                                             <li class="span4 list-item-3">
                                                 <figure class="featured-thumbnail thumbnail">
                                                     <a href="<?php echo  $c_image['sizes']['large']; ?>" title="<?php  the_title(); ?>" rel="prettyPhoto-1235742828">
-                                                        <img class="cat-img" src="<?php echo  $c_image['sizes']['large']; ?>" alt="<?php  the_title(); ?>"/>
+                                                        <img class="cat-img effect70" src="<?php echo  $c_image['sizes']['large']; ?>" alt="<?php  the_title(); ?>"/>
                                                         <span class="zoom-icon"></span>
                                                     </a>
                                                 </figure>
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5 class="cat-head-h5"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view"><?php  the_title(); ?></a></h5>
+                                                        <h5 class="cat-head-h5 <?php
+                                                        $title = get_the_title();
+                                                        if(mb_strlen($title)>30) echo 'str3';
+                                                        elseif(mb_strlen($title)>15) echo 'str2';
+
+                                                        ?>">
+                                                            <a href="<?php echo get_permalink();?>" title="<?php  the_title(); ?>"><?php  the_title(); ?></a>
+                                                        </h5>
                                                         <p class="excerpt"><?php  the_field( "c_short_description" ); ?></p>
                                                     </div>
                                                     <div class="helper"></div>
@@ -134,7 +141,7 @@
 
                                         <div class="spacer"></div>
                                         <div class="title-box clearfix extra">
-                                            <h2 class="title-box_primary">welcome</h2>
+                                            <h2 class="title-box_primary">Почему у нас?</h2>
                                         </div>
                                         <div class="row ">
                                             <div class="span4 "><section class="lazy-load-box trigger effect-slidetop " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
@@ -150,7 +157,7 @@
                                                     <?php echo $settings['welcome_right_text']; ?>
                                                 </section></div>
                                         </div>
-                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/" title="view details" class="btn btn-default btn-normal btn-inline indent_top" target="_self">view details</a>
+                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/" title="view details" class="btn btn-default btn-normal btn-inline indent_top" target="_self">Детали</a>
                                         <div class="spacer"></div>
                                         <section class="parallax-box image-parallax-box parallax_1"><div class="parallax-content">
                                                 <div class="spacer"></div>

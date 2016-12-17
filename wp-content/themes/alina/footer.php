@@ -76,45 +76,45 @@
         <a href="#top"><span></span></a> </p>
 </div>
 <script type='text/javascript' src='/js/comment-reply.min.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/jquery.flexslider-min.js?ver=2.2.2'></script>
+<script type='text/javascript' src='/js/jquery.flexslider-min.js?ver=2.2.2'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var items_custom = [[0,1],[480,2],[768,3],[980,4],[1170,5]];
     /* ]]> */
 </script>
-<script type='text/javascript' src='js/cherry-plugin.js?ver=1.2.8.1'></script>
-<script type='text/javascript' src='js/cherry.lazy-load.js?ver=1.0'></script>
-<script type='text/javascript' src='js/device.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='js/jquery.mousewheel.min.js?ver=3.0.6'></script>
-<script type='text/javascript' src='js/jquery.simplr.smoothscroll.min.js?ver=1.0'></script>
-<script type='text/javascript' src='js/cherry.parallax.js?ver=1.0.0'></script>
-<script type='text/javascript' src='js/imagesloaded.pkgd.min.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/jquery.mobile.events.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/imageTransformer.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/smoothing-scroll.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/fullwidth-stretcher.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/jquery.destaque.custom.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript' src='/js/cherry-plugin.js?ver=1.2.8.1'></script>
+<script type='text/javascript' src='/js/cherry.lazy-load.js?ver=1.0'></script>
+<script type='text/javascript' src='/js/device.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/js/jquery.mousewheel.min.js?ver=3.0.6'></script>
+<script type='text/javascript' src='/js/jquery.simplr.smoothscroll.min.js?ver=1.0'></script>
+<script type='text/javascript' src='/js/cherry.parallax.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/js/imagesloaded.pkgd.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/jquery.mobile.events.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/imageTransformer.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/smoothing-scroll.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/fullwidth-stretcher.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/jquery.destaque.custom.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var _wpcf7 = {"loaderUrl":"http:\/\/ld-wp.template-help.com\/wordpress_58640\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
     /* ]]> */
 </script>
-<script type='text/javascript' src='js/scripts.js?ver=4.4.2'></script>
-<script type='text/javascript' src='js/superfish.js?ver=1.5.3'></script>
-<script type='text/javascript' src='js/jquery.mobilemenu.js?ver=1.0'></script>
-<script type='text/javascript' src='js/jquery.magnific-popup.min.js?ver=0.9.3'></script>
-<script type='text/javascript' src='js/jplayer.playlist.min.js?ver=2.3.0'></script>
-<script type='text/javascript' src='js/jquery.jplayer.min.js?ver=2.6.0'></script>
-<script type='text/javascript' src='js/tmstickup.js?ver=1.0.0'></script>
-<script type='text/javascript' src='js/device.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='js/jquery.zaccordion.min.js?ver=2.1.0'></script>
-<script type='text/javascript' src='js/camera.min.js?ver=1.3.4'></script>
-<script type='text/javascript' src='js/jquery.debouncedresize.js?ver=1.0'></script>
-<script type='text/javascript' src='js/jquery.ba-resize.min.js?ver=1.1'></script>
-<script type='text/javascript' src='js/jquery.isotope.js?ver=1.5.25'></script>
-<script type='text/javascript' src='js/wp-embed.min.js?ver=4.4.5'></script>
-<script type='text/javascript' src='js/owl.carousel.min.js?ver=1.31'></script>
+<script type='text/javascript' src='/js/scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='/js/superfish.js?ver=1.5.3'></script>
+<script type='text/javascript' src='/js/jquery.mobilemenu.js?ver=1.0'></script>
+<script type='text/javascript' src='/js/jquery.magnific-popup.min.js?ver=0.9.3'></script>
+<script type='text/javascript' src='/js/jplayer.playlist.min.js?ver=2.3.0'></script>
+<script type='text/javascript' src='/js/jquery.jplayer.min.js?ver=2.6.0'></script>
+<script type='text/javascript' src='/js/tmstickup.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/js/device.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/js/jquery.zaccordion.min.js?ver=2.1.0'></script>
+<script type='text/javascript' src='/js/camera.min.js?ver=1.3.4'></script>
+<script type='text/javascript' src='/js/jquery.debouncedresize.js?ver=1.0'></script>
+<script type='text/javascript' src='/js/jquery.ba-resize.min.js?ver=1.1'></script>
+<script type='text/javascript' src='/js/jquery.isotope.js?ver=1.5.25'></script>
+<script type='text/javascript' src='/js/wp-embed.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='/js/owl.carousel.min.js?ver=1.31'></script>
 <script type="text/javascript">
     deleteCookie('cf-cookie-banner');
 </script>
