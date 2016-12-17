@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php $settings = GetSettings(); ?>
     <div class="motopress-wrapper content-holder clearfix">
         <div class="container">
             <div class="row">
@@ -10,6 +11,7 @@
                                     <div class="span12 ">
                                         <div class="cherry-single-carousel-wrapper  loading">
                                             <div class="cherry-single-carousel-container">
+
                                             <?php
                                             $args = array(
                                                 'numberposts'	=> -1,
@@ -101,7 +103,7 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Mountain view</a></h5>
+                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Архитектурное проектирование</a></h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
                                                     <div class="helper"></div>
@@ -121,7 +123,7 @@
                                                 <div class="desc">
                                                     <div class="desc-in">
                                                         <h5>
-                                                            <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/penthouse/" title="Penthouse">Penthouse</a>
+                                                            <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/penthouse/" title="Penthouse">Дизайн и декорирование</a>
                                                         </h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
@@ -138,39 +140,80 @@
                                                 <div class="clear"></div>
                                                 <div class="desc">
                                                     <div class="desc-in">
-                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Mountain view</a></h5>
+                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Инженерное проектирование</a></h5>
                                                         <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
                                                     </div>
                                                     <div class="helper"></div>
                                                 </div>
                                             </li>
-                                        </ul> <ul class="posts-grid row-fluid unstyled portfolio-home full-width-block ul-item-1"><li class="span4 list-item-1"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_4.jpg" title="Vacation home" rel="prettyPhoto-1235742828"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_4-800x540.jpg" alt="Vacation home"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/vacation-home/" title="Vacation home">Vacation home</a></h5><p class="excerpt">Consider this product. Is there anything really exciting to say about it? If you’ve ever wanted to get the product&hellip;</p></div><div class="helper"></div></div></li><li class="span4 list-item-2"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_5.jpg" title="Ginza project" rel="prettyPhoto-1235742828"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_5-800x540.jpg" alt="Ginza project"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/ginza-project/" title="Ginza project">Ginza project</a></h5><p class="excerpt">This original product provides the perfect blank canvas to express your unique style. Cute and comfortable, the item is a&hellip;</p></div><div class="helper"></div></div></li><li class="span4 list-item-3"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_6.jpg" title="Luxury villa" rel="prettyPhoto-1235742828"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_6-800x540.jpg" alt="Luxury villa"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/luxury-villa/" title="Luxury villa">Luxury villa</a>
-                                                        </h5><p class="excerpt">Consider this product. Is there anything really exciting to say about it? If you’ve ever wanted to get the product&hellip;</p>
-                                                    </div><div class="helper"></div></div></li>
+                                            <li class="span4 list-item-3">
+                                                <figure class="featured-thumbnail thumbnail">
+                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
+                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
+                                                        <span class="zoom-icon"></span>
+                                                    </a>
+                                                </figure>
+                                                <div class="clear"></div>
+                                                <div class="desc">
+                                                    <div class="desc-in">
+                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Строительство и ремонт</a></h5>
+                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
+                                                    </div>
+                                                    <div class="helper"></div>
+                                                </div>
+                                            </li>
+
+                                            <li class="span4 list-item-3">
+                                                <figure class="featured-thumbnail thumbnail">
+                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
+                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
+                                                        <span class="zoom-icon"></span>
+                                                    </a>
+                                                </figure>
+                                                <div class="clear"></div>
+                                                <div class="desc">
+                                                    <div class="desc-in">
+                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Мебель по индивидуальному заказу</a></h5>
+                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
+                                                    </div>
+                                                    <div class="helper"></div>
+                                                </div>
+                                            </li>
+
+                                            <li class="span4 list-item-3">
+                                                <figure class="featured-thumbnail thumbnail">
+                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3.jpg" title="Mountain view" rel="prettyPhoto-1235742828">
+                                                        <img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_3-800x540.jpg" alt="Mountain view"/>
+                                                        <span class="zoom-icon"></span>
+                                                    </a>
+                                                </figure>
+                                                <div class="clear"></div>
+                                                <div class="desc">
+                                                    <div class="desc-in">
+                                                        <h5><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio-view/mountain-view/" title="Mountain view">Поставка мебели</a></h5>
+                                                        <p class="excerpt">This product will spark your imagination. Even more, it will turn your life into adventure. Find the package you are&hellip;</p>
+                                                    </div>
+                                                    <div class="helper"></div>
+                                                </div>
+                                            </li>
                                         </ul>
+
                                         <div class="spacer"></div>
                                         <div class="title-box clearfix extra">
                                             <h2 class="title-box_primary">welcome</h2>
                                         </div>
                                         <div class="row ">
                                             <div class="span4 "><section class="lazy-load-box trigger effect-slidetop " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
-                                                    <h6>Building your perfect home</h6>
-                                                    <p>What do you pass by on your way to work? Architecture is everywhere in the everyday life.</p>
-                                                    <p>Modern or old, every building has its own story, its own life, past and the future. When we build a new house instead of the old one we don’t think about the history that was left behind and the meaning it may have for you as a citizen of the city/country.</p>
-                                                    <p>Modern architecture changes the way we work, live and spend our leisure time. Parks, places of interest, offices and homes reveal our philosophy and shape the way we perceive the world.</p>
-                                                    <p>The majority of people spend most of the time in buildings. Some of them were structured for the purpose of studying, entertaining, having rest or just living.</p>
+                                                    <h6><?php echo $settings['welocome_left_title']; ?></h6>
+                                                    <?php echo $settings['welcome_left_text']; ?>
                                                 </section></div>
                                             <div class="span4 "><section class="lazy-load-box trigger effect-slidetop " data-delay="200" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
-                                                    <h6>Creating stunning architecture</h6>
-                                                    <p>However, it is hard to say that an average house where we live was built with the end user in mind. As a rule, architects are heavily dependent on such aspects as space, time, money and other limitations.</p>
-                                                    <p>When you decide to build your own house, the aforementioned factors are no less important. Most of us start working on such projects heavily relying on the budget.</p>
-                                                    <p>Architecture is not only the space where we live. This is a material copy of our habits and beliefs. It has been scientifically proven that if a person wants to bring some changes into his/her life, it’s better to start with the environment where he/she spends most of the day.</p>
+                                                    <h6><?php echo $settings['welcome_center_title']; ?></h6>
+                                                    <?php echo $settings['welcome_center_text']; ?>
                                                 </section></div>
                                             <div class="span4 "><section class="lazy-load-box trigger effect-slidetop " data-delay="400" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
-                                                    <h6>Committed team of professionals</h6>
-                                                    <p>With so many architecture companies available on the market, it’s easy to get lost. To find a reliable one, do a bit of research.</p>
-                                                    <p>Ask for your friends’ advice; discover where and how they started building or renovation of their home. When choosing a team to hire, don’t hesitate to look through their previous projects.</p>
-                                                    <p>Pay special attention to details. The psychological and sociological factors are no less important. Talk to the team. Did you find it easy to talk to them? If yes, now you can think about your further cooperation.</p>
+                                                    <h6><?php echo $settings['welcome_right_title']; ?></h6>
+                                                    <?php echo $settings['welcome_right_text']; ?>
                                                 </section></div>
                                         </div>
                                         <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/" title="view details" class="btn btn-default btn-normal btn-inline indent_top" target="_self">view details</a>

@@ -43,6 +43,7 @@
     <link rel='stylesheet' id='options_typography_Pacifico-css' href='//fonts.googleapis.com/css?family=Pacifico&#038;subset=latin,cyrillic' type='text/css' media='all'/>
     <link rel='stylesheet' id='mpce-theme-css' href='/css/theme.css?ver=1.5.8' type='text/css' media='all'/>
     <link rel='stylesheet' id='mpce-bootstrap-grid-css' href='/css/bootstrap-grid.min.css?ver=1.5.8' type='text/css' media='all'/>
+    <link rel='stylesheet' href='/css/add.css' type='text/css' media='all'/>
     <script type='text/javascript' src='/js/jquery-1.7.2.min.js?ver=1.7.2'></script>
     <script type='text/javascript' src='/js/jquery.easing.1.3.js?ver=1.3'></script>
     <script type='text/javascript' src='/js/jquery.elastislide.js?ver=1.2.8.1'></script>
@@ -126,6 +127,8 @@
         })
     </script>
 </head>
+<?php $settings = GetSettings(); ?>
+
 <body  class="home page page-id-203 page-template page-template-page-home page-template-page-home-php safari">
 <div id="motopress-main" class="main-holder">
     <header class="motopress-wrapper header">
@@ -138,8 +141,9 @@
                                 <div class="logo-wrap" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 
                                     <div class="logo pull-left">
+
                                         <a href="https://ld-wp.template-help.com/wordpress_58640/" class="logo_h logo_h__img">
-                                            <img src="/images/logo.png" alt="Interna" title="">
+                                            <img style="width: 220px;" src="<?php echo $settings['main_logo']['sizes']['large']; ?>" alt="Interna" title="">
                                         </a>
                                     </div>
                                 </div>
@@ -147,42 +151,19 @@
 
                                     <nav class="nav nav__primary clearfix">
                                         <ul id="topnav" class="sf-menu">
-                                            <li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"><a href="https://ld-wp.template-help.com/wordpress_58640/">Home</a></li>
+                                            <li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item">
+                                                <a href="https://ld-wp.template-help.com/wordpress_58640/">Главная</a>
+                                            </li>
                                             <li id="menu-item-2012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                <a href="https://ld-wp.template-help.com/wordpress_58640/about/">About</a>
-                                                <ul class="sub-menu">
-                                                    <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/about/testi/">Testimonials</a>
-                                                    </li>
-                                                    <li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/about/archives/">Archives</a>
-                                                    </li>
-                                                </ul>
+                                                <a href="https://ld-wp.template-help.com/wordpress_58640/about/">О нас</a>
                                             </li>
                                             <li id="menu-item-2011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/">Gallery</a>
-                                                <ul class="sub-menu">
-                                                    <li id="menu-item-2017" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-2/">Gallery 2</a>
-                                                    </li>
-                                                    <li id="menu-item-2016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-3/">Gallery 3</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-2025" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-3/category-1/">Category 1</a></li>
-                                                            <li id="menu-item-2024" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-3/category-2/">Category 2</a>
-                                                            </li>
-                                                            <li id="menu-item-2023" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-3/category-3/">Category 3</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li id="menu-item-2015" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/portfolio-4/">Gallery 4</a></li>
-                                                </ul>
+                                                <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/">Проекты</a>
                                             </li>
-                                            <li id="menu-item-2009" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://ld-wp.template-help.com/wordpress_58640/blog/">Blog</a></li>
-                                            <li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://ld-wp.template-help.com/wordpress_58640/contact/">Contact</a></li>
+
+                                            <li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                <a href="https://ld-wp.template-help.com/wordpress_58640/contact/">Контакты</a>
+                                            </li>
                                         </ul></nav>
                                 </div>
                             </div>

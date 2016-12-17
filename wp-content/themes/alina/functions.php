@@ -235,3 +235,31 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
     }
 
 }
+
+function GetSettings()
+{
+
+    $res = array();
+    $args = array(
+        'posts_per_page'	=> 1,
+        'id' => 2,
+        'post_type'=>'page'
+    );
+    $the_query = new WP_Query($args);
+    if( $the_query->have_posts() ) {
+        while ($the_query->have_posts()) {
+            $the_query->the_post();
+
+            $res['main_logo'] = get_field('main_logo');
+            $res['welocome_left_title'] = get_field('welocome_left_title');
+            $res['welcome_left_text'] = get_field('welcome_left_text');
+            $res['welcome_center_title'] = get_field('welcome_center_title');
+            $res['welcome_center_text'] = get_field('welcome_center_text');
+            $res['welcome_right_title'] = get_field('welcome_right_tile');
+            $res['welcome_right_text'] = get_field('welcome_right_text');
+
+        }
+    }
+    wp_reset_query();
+    return $res;
+}
