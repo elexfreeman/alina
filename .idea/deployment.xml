@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="forestunion">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="forestunion" uploadOnCheckin="66868619-36a6-4390-a3ce-67e5a3f246b1">
     <serverData>
       <paths name="forestunion">
         <serverdata>
@@ -20,6 +20,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="forestunion" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

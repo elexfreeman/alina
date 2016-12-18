@@ -157,13 +157,56 @@
                                                     <?php echo $settings['welcome_right_text']; ?>
                                                 </section></div>
                                         </div>
-                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/" title="view details" class="btn btn-default btn-normal btn-inline indent_top" target="_self">Детали</a>
+                                        <a href="https://ld-wp.template-help.com/wordpress_58640/portfolio/" title="view details"
+                                           class="btn btn-default btn-normal btn-inline indent_top" target="_self">Детали</a>
                                         <div class="spacer"></div>
-                                        <section class="parallax-box image-parallax-box parallax_1"><div class="parallax-content">
+                                        <section class="parallax-box image-parallax-box parallax_1">
+                                            <div class="parallax-content">
                                                 <div class="spacer"></div>
-                                                <div class="title-box clearfix "><h2 class="title-box_primary">team</h2></div>
+                                                <div class="title-box clearfix ">
+                                                    <h2 class="title-box_primary">team</h2>
+                                                </div>
                                                 <section class="lazy-load-box trigger effect-slidetop " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
-                                                    <div class="carousel-wrap models"><div id="owl-carousel-58303f8a05a31" class="owl-carousel-team owl-carousel" data-items="4" data-auto-play="0" data-nav="false" data-pagination="true"><div class="item format-standart item-list-0"><figure><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/caroline-beek/" title="Caroline Beek"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2012/05/team_1.jpg" alt="Caroline Beek"/></a></figure><div class="desc"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/caroline-beek/" title="Caroline Beek">Caroline Beek</a></h5><span class="team_position">Lead Designer</span></div></div><div class="item format-standart item-list-1"><figure><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/sam-kromstain/" title="Sam Kromstain"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2011/07/team_2.jpg" alt="Sam Kromstain"/></a></figure><div class="desc"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/sam-kromstain/" title="Sam Kromstain">Sam Kromstain</a></h5><span class="team_position">Chief Administrator</span></div></div><div class="item format-standart item-list-2"><figure><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/john-franklin/" title="John Franklin"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2011/07/team_3.jpg" alt="John Franklin"/></a></figure><div class="desc"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/john-franklin/" title="John Franklin">John Franklin</a></h5><span class="team_position">Quality Control Manager</span></div></div><div class="item format-standart item-list-3"><figure><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/julie-herzigova/" title="Julie Herzigova"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2011/07/team_4.jpg" alt="Julie Herzigova"/></a></figure><div class="desc"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/julie-herzigova/" title="Julie Herzigova">Julie Herzigova</a></h5><span class="team_position">Architectural Modeler</span></div></div><div class="item format-standart item-list-4"><figure><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/sam-franklin/" title="Sam Franklin"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/team_5-400x400.jpg" alt="Sam Franklin"/></a></figure><div class="desc"><h5><a href="https://ld-wp.template-help.com/wordpress_58640/team-view/sam-franklin/" title="Sam Franklin">Sam Franklin</a></h5><span class="team_position">Quality Control Manager</span></div></div></div></div>
+                                                    <div class="carousel-wrap models">
+                                                        <div id="owl-carousel-58303f8a05a31" class="owl-carousel-team owl-carousel" data-items="4" data-auto-play="0" data-nav="false" data-pagination="true">
+
+                                            <?php
+                                            $args = array(
+                                                'numberposts'	=> -1,
+                                                'post_type'		=> 'emploers',
+                                                'post_status' => 'publish',
+
+                                                /*   'meta_query'	=> array(
+                                                       array(
+                                                           'key'	 	=> 'p_show_in_main_slide',
+                                                           'value' => 'Да', // matches exactly "red"
+                                                           'compare' => 'LiKE'
+                                                       )
+
+                                                   ),*/
+                                            );
+                                            $the_query = new WP_Query($args);
+                                            if( $the_query->have_posts() ): while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                                <?php $e_photo = get_field('e_photo');?>
+                                                            <div class="item format-standart item-list-0">
+                                                                <figure>
+                                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/team-view/caroline-beek/" title="<?php  the_title(); ?>">
+                                                                        <img src="<?php echo  $e_photo['sizes']['large']; ?>"
+                                                                             alt="<?php  the_title(); ?>"/>
+                                                                    </a>
+                                                                </figure>
+                                                                <div class="desc">
+                                                                    <h5>
+                                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/team-view/caroline-beek/"
+                                                                           title="<?php  the_title(); ?>"><?php  the_title(); ?></a>
+                                                                    </h5>
+                                                                    <span class="team_position"><?php  the_field( "e_post" ); ?></span>
+                                                                </div>
+                                                            </div>
+                                            <?php endwhile; else : endif; wp_reset_query(); ?>
+
+                                                        </div>
+                                                    </div>
                                                 </section>
                                                 <div class="spacer"></div>
                                                 <div class="clear"></div></div><div class="parallax-bg" data-parallax-type="image" data-img-url="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/parallax_1.jpg" data-speed="normal" data-invert="false"></div></section>
