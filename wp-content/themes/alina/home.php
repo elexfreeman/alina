@@ -42,11 +42,11 @@
                                                     </div><div class="foreground">
                                                         <div class="cherry-single-carousel-content-holder">
                                                             <div class="element">
-                                                                <h3 class="cherry-single-carousel-item-title">Мы создали</h3>
+                                                                <h3 class="cherry-single-carousel-item-title"><?php the_title(); ?></h3>
                                                                 <div class="cherry-single-carousel-item-excerpt">
                                                                     <strong><?php  the_field( "p_date" ); ?></strong>
                                                                     <?php  the_field( "p_short_description" ); ?></div>
-                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/events-view/we-create-3/" class="btn">Детали</a>
+                                                                <a href="<?php echo get_permalink();?>" class="btn">Детали</a>
                                                             </div>
                                                         </div>
                                                         <div class="helper"></div>
