@@ -60,7 +60,7 @@
                 <div class="row copyright">
                     <div class="span6" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
                         <div id="footer-text" class="footer-text">
-                            <a href="https://ld-wp.template-help.com/wordpress_58640/" title="" class="site-name">Interna</a> &copy; 2016 <em>•</em> <span><a href="https://ld-wp.template-help.com/wordpress_58640/privacy-policy/" title="Privacy Policy">Privacy Policy</a></span>
+                            <a href="/" title="Alaine Group" class="site-name">Alaine Group</a> &copy; 2016 <em>•</em> <span><a href="#" title="Privacy Policy">Политика конфиденциальности</a></span>
 
                         </div> </div>
                     <div class="span6" data-motopress-type="static" data-motopress-static-file="static/static-footer-nav.php">

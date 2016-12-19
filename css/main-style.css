@@ -2932,8 +2932,9 @@ article.testimonial .user, article.testimonial .info {
 }
 
 .title-box .title-box_primary {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     color: #2f2e39;
+    font: 100 70px/1.2em 'Roboto',sans-serif;
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1200px) {

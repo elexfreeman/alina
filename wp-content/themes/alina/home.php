@@ -18,14 +18,14 @@
                                                 'post_type'		=> 'projects',
                                                 'post_status' => 'publish',
 
-                                             /*   'meta_query'	=> array(
+                                               'meta_query'	=> array(
                                                     array(
                                                         'key'	 	=> 'p_show_in_main_slide',
                                                         'value' => 'Да', // matches exactly "red"
                                                         'compare' => 'LiKE'
                                                     )
 
-                                                ),*/
+                                                ),
                                             );
                                             $the_query = new WP_Query($args);
                                             if( $the_query->have_posts() ): while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
@@ -164,7 +164,7 @@
                                             <div class="parallax-content">
                                                 <div class="spacer"></div>
                                                 <div class="title-box clearfix ">
-                                                    <h2 class="title-box_primary">team</h2>
+                                                    <h2 class="title-box_primary">Команда</h2>
                                                 </div>
                                                 <section class="lazy-load-box trigger effect-slidetop " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
                                                     <div class="carousel-wrap models">
@@ -211,10 +211,121 @@
                                                 <div class="spacer"></div>
                                                 <div class="clear"></div></div><div class="parallax-bg" data-parallax-type="image" data-img-url="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/parallax_1.jpg" data-speed="normal" data-invert="false"></div></section>
                                         <div class="spacer"></div>
-                                        <div class="title-box clearfix "><h2 class="title-box_primary">Events</h2></div>
+                                        <div class="title-box clearfix ">
+                                            <h2 class="title-box_primary">Проекты</h2>
+                                        </div>
                                         <section class="lazy-load-box trigger effect-slidetop " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
-                                            <ul class="posts-grid row-fluid unstyled grid-events ul-item-0"><li class="span4 list-item-1"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_7.jpg" title="Dior garment styles  boutique" rel="prettyPhoto-1080910205"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_7-500x328.jpg" alt="Dior garment styles  boutique"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><div class="post_meta"><span class="post_category"><em>Posted in </em><a href="https://ld-wp.template-help.com/wordpress_58640/category/aliquam-bibendum-justo-semper/" title="Projects">Projects</a> </span><span class="post_date"><time datetime="2014-05-27T06:31:56">27/05/2014</time></span><span class="post_author"><em> by </em><a href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span class="post_comment"><a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/dior-garment-styles-boutique/" class="comments_link">3 Comments</a></span></div><h5><a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/dior-garment-styles-boutique/" title="Dior garment styles  boutique">Dior garment styles boutique</a></h5><p class="excerpt">Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the&hellip;</p></div><div class="helper"></div></div></li><li class="span4 list-item-2"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_8.jpg" title="New Louis Vuitton boutique" rel="prettyPhoto-1080910205"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_8-500x328.jpg" alt="New Louis Vuitton boutique"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><div class="post_meta"><span class="post_category"><em>Posted in </em><a href="https://ld-wp.template-help.com/wordpress_58640/category/aliquam-bibendum-justo-semper/" title="Projects">Projects</a> </span><span class="post_date"><time datetime="2013-03-14T20:28:57">14/03/2013</time></span><span class="post_author"><em> by </em><a href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span class="post_comment"><a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/new-louis-vuitton-boutique/" class="comments_link">3 Comments</a></span></div><h5><a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/new-louis-vuitton-boutique/" title="New Louis Vuitton boutique">New Louis Vuitton boutique</a></h5><p class="excerpt">What is stopping you from believing in the business of your dreams? Insecurity? Fear? Lack of confidence? All of the&hellip;</p></div><div class="helper"></div></div></li><li class="span4 list-item-3"><figure class="featured-thumbnail thumbnail"><a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_9.jpg" title="Apple’s futuristic tech office in Interna" rel="prettyPhoto-1080910205"><img src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_9-500x328.jpg" alt="Apple’s futuristic tech office in Interna"/><span class="zoom-icon"></span></a></figure><div class="clear"></div><div class="desc"><div class="desc-in"><div class="post_meta"><span class="post_category"><em>Posted in </em><a href="https://ld-wp.template-help.com/wordpress_58640/category/tristique-ultrices-lectus-augue-pellent/" title="Modern House">Modern House</a> </span><span class="post_date"><time datetime="2013-03-05T20:31:03">05/03/2013</time></span><span class="post_author"><em> by </em><a href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span class="post_comment"><a href="https://ld-wp.template-help.com/wordpress_58640/tristique-ultrices-lectus-augue-pellent/apples-futuristic-tech-office-in-interna/" class="comments_link">0 Comments</a></span></div><h5><a href="https://ld-wp.template-help.com/wordpress_58640/tristique-ultrices-lectus-augue-pellent/apples-futuristic-tech-office-in-interna/" title="Apple’s futuristic tech office in Interna">Apple’s futuristic tech office in Interna</a></h5><p class="excerpt">Thousands of people dream of having their own business and even more so be a successful entrepreneur. But what does&hellip;</p></div><div class="helper"></div></div></li></ul>
-                                            <p style="outline-width: 0px ! important; -moz-user-select: text ! important;"></section>
+                                            <ul class="posts-grid row-fluid unstyled grid-events ul-item-0">
+                                                <li class="span4 list-item-1">
+                                                    <figure class="featured-thumbnail thumbnail">
+                                                        <a href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_7.jpg"
+                                                            title="Dior garment styles  boutique"
+                                                            rel="prettyPhoto-1080910205"><img
+                                                                src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_7-500x328.jpg"
+                                                                alt="Dior garment styles  boutique"/><span
+                                                                class="zoom-icon"></span></a></figure>
+                                                    <div class="clear"></div>
+                                                    <div class="desc">
+                                                        <div class="desc-in">
+                                                            <div class="post_meta">
+                                                                <span class="post_category">
+                                                                    <em>Posted in </em>
+                                                                    <a href="https://ld-wp.template-help.com/wordpress_58640/category/aliquam-bibendum-justo-semper/"
+                                                                        title="Projects">Projects</a> </span><span
+                                                                    class="post_date"><time
+                                                                        datetime="2014-05-27T06:31:56">27/05/2014
+                                                                    </time></span><span class="post_author"><em>
+                                                                        by </em><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span
+                                                                    class="post_comment"><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/dior-garment-styles-boutique/"
+                                                                        class="comments_link">3 Comments</a></span>
+                                                            </div>
+                                                            <h5>
+                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/dior-garment-styles-boutique/"
+                                                                   title="Dior garment styles  boutique">Dior garment
+                                                                    styles boutique</a></h5>
+
+                                                            <p class="excerpt">Many students are cash-strapped,
+                                                                nowadays. Nevertheless, their purchasing power is very
+                                                                high. Research reveals that 20 million students in
+                                                                the&hellip;</p></div>
+                                                        <div class="helper"></div>
+                                                    </div>
+                                                </li>
+                                                <li class="span4 list-item-2">
+                                                    <figure class="featured-thumbnail thumbnail"><a
+                                                            href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_8.jpg"
+                                                            title="New Louis Vuitton boutique"
+                                                            rel="prettyPhoto-1080910205"><img
+                                                                src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_8-500x328.jpg"
+                                                                alt="New Louis Vuitton boutique"/><span
+                                                                class="zoom-icon"></span></a></figure>
+                                                    <div class="clear"></div>
+                                                    <div class="desc">
+                                                        <div class="desc-in">
+                                                            <div class="post_meta"><span class="post_category"><em>Posted
+                                                                        in </em><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/category/aliquam-bibendum-justo-semper/"
+                                                                        title="Projects">Projects</a> </span><span
+                                                                    class="post_date"><time
+                                                                        datetime="2013-03-14T20:28:57">14/03/2013
+                                                                    </time></span><span class="post_author"><em>
+                                                                        by </em><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span
+                                                                    class="post_comment"><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/new-louis-vuitton-boutique/"
+                                                                        class="comments_link">3 Comments</a></span>
+                                                            </div>
+                                                            <h5>
+                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/aliquam-bibendum-justo-semper/new-louis-vuitton-boutique/"
+                                                                   title="New Louis Vuitton boutique">New Louis Vuitton
+                                                                    boutique</a></h5>
+
+                                                            <p class="excerpt">What is stopping you from believing in
+                                                                the business of your dreams? Insecurity? Fear? Lack of
+                                                                confidence? All of the&hellip;</p></div>
+                                                        <div class="helper"></div>
+                                                    </div>
+                                                </li>
+                                                <li class="span4 list-item-3">
+                                                    <figure class="featured-thumbnail thumbnail"><a
+                                                            href="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_9.jpg"
+                                                            title="Apple’s futuristic tech office in Interna"
+                                                            rel="prettyPhoto-1080910205"><img
+                                                                src="https://ld-wp.template-help.com/wordpress_58640/wp-content/uploads/2016/03/img_9-500x328.jpg"
+                                                                alt="Apple’s futuristic tech office in Interna"/><span
+                                                                class="zoom-icon"></span></a></figure>
+                                                    <div class="clear"></div>
+                                                    <div class="desc">
+                                                        <div class="desc-in">
+                                                            <div class="post_meta"><span class="post_category"><em>Posted
+                                                                        in </em><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/category/tristique-ultrices-lectus-augue-pellent/"
+                                                                        title="Modern House">Modern
+                                                                        House</a> </span><span class="post_date"><time
+                                                                        datetime="2013-03-05T20:31:03">05/03/2013
+                                                                    </time></span><span class="post_author"><em>
+                                                                        by </em><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/author/admin/">admin</a></span><span
+                                                                    class="post_comment"><a
+                                                                        href="https://ld-wp.template-help.com/wordpress_58640/tristique-ultrices-lectus-augue-pellent/apples-futuristic-tech-office-in-interna/"
+                                                                        class="comments_link">0 Comments</a></span>
+                                                            </div>
+                                                            <h5>
+                                                                <a href="https://ld-wp.template-help.com/wordpress_58640/tristique-ultrices-lectus-augue-pellent/apples-futuristic-tech-office-in-interna/"
+                                                                   title="Apple’s futuristic tech office in Interna">Apple’s
+                                                                    futuristic tech office in Interna</a></h5>
+
+                                                            <p class="excerpt">Thousands of people dream of having their
+                                                                own business and even more so be a successful
+                                                                entrepreneur. But what does&hellip;</p></div>
+                                                        <div class="helper"></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <p style="outline-width: 0px ! important; -moz-user-select: text ! important;">
+                                        </section>
                                         <a href="https://ld-wp.template-help.com/wordpress_58640/blog/" title="View Details" class="btn btn-default btn-normal btn-inline " target="_self">View Details</a>
                                         <div class="spacer"></div>
                                         <section class="parallax-box image-parallax-box parallax_2"><div class="parallax-content">
